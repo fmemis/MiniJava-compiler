@@ -9,7 +9,7 @@ We then can traverse this tree with visitors.
 We implement two visitors.One for building a symbol table of the minijava program we read(SymbolTableBuilderVisitor.java), and another to perform the semantic check(TypeCheckVisitor.java).We also need a main class of course,and classes for the symbol table.
 
 #### Details
-SymbolTableBuilderVisitor.java: Builds symbol table. Also performs some type checking(mostly related to declarations,doesn't have all the SymbolTable to check for everything)
+SymbolTableBuilderVisitor.java: Builds symbol table. Also performs some type checking(mostly related to declarations,doesn't have the whole SymbolTable to check for everything)
 
 TypeCheckVisitor.java:Performs the semantic check.
 
