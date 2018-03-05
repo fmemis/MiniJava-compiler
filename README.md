@@ -35,6 +35,7 @@ To execute: java Main input.java
 In part2 to run the generated intermediate(LLVM)code:
 
 clang-4.0 -o out1 code.ll
+
 ./out1
 
 In the input folder of part2 there are two different minijava programs as input examples.A very small one(Factorial.java) and a big one(TreeVisitor.java).
